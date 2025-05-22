@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+TOKEN = os.getenv("BOT_TOKEN")
 import logging
 from telegram import (
     Update,
